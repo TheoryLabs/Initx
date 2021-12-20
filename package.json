@@ -1,0 +1,46 @@
+{
+  "name": "@theorylabs/initx",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "description": "Git init. Yarn init. Npm init. Inity mc-nit-nit init. Starting a new project doesn't have to suck. As devs, we've got a million and one tooling tools to tool with that make building awesome shit feel like cheating, yet the first steps to the journey seem to always only ever remain the same. Initx is your cli app for starting projects, now. Stop building apps like you did when MySpace was a thing. Its 2021. Cheers to the future.",
+  "repository": "https://github.com/TheoryLabs/Initx",
+  "author": "Branden Dane <Dane@TheoryLabs.dev> (https://TheoryLabs.dev)",
+  "files": [
+    "src",
+    "README.md",
+    "docs",
+    "bin"
+  ],
+  "bin": {
+    "initx": "bin/initx"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,json} && standard --fix",
+    "lint": "standard",
+    "test": "jest",
+    "watch": "jest --watch",
+    "snapupdate": "jest --updateSnapshot",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "gluegun": "latest"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "prettier": "^1.12.1",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
