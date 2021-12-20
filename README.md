@@ -1,5 +1,5 @@
 # Initx
-> _[ A **`TheoryLabs`** project ]_  | **`initx`** | **`@theorylabs/initx`** | **`v0.0.1`** |
+> _[ A **`TheoryLabs`** project ]_ - | **`initx`** | **`@theorylabs/initx`** | **`v0.0.1`** |
 
 
 > _`git init`. `yarn init`. `npm init`. `initty mc-nit-nit init`. Starting a new project doesn't have to **suck**. As devs, we've got a **million and one** tooling tools to tool with 
